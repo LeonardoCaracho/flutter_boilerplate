@@ -1,38 +1,38 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static final Color purple = Color(0xFF8257E5);
-  static final Color white = Color(0xFFFFFFFF);
-  static final Color black = Color(0xFF514766);
-  static final Color grey = Color(0xFF6E6680);
-  static final Color lightGrey = Color(0xFFA6A1B2);
-  static final Color border = Color(0xFFE1E1E6);
-  static final Color chartSecondary = Color(0xFFE1E6E3);
-  static final Color chartPrimary = darkGreen;
+  static Color get purple => const Color(0xFF8257E5);
+  static Color get white => const Color(0xFFFFFFFF);
+  static Color get black => const Color(0xFF514766);
+  static Color get grey => const Color(0xFF6E6680);
+  static Color get lightGrey => const Color(0xFFA6A1B2);
+  static Color get border => const Color(0xFFE1E1E6);
+  static Color get chartSecondary => const Color(0xFFE1E6E3);
+  static Color get chartPrimary => darkGreen;
 
   //Greens
-  static final Color lightGreen = Color(0xFFE1F5EC);
-  static final Color green = Color(0xFFB8DBCB);
-  static final Color darkGreen = Color(0xFF04D361);
+  static Color get lightGreen => const Color(0xFFE1F5EC);
+  static Color get green => const Color(0xFFB8DBCB);
+  static Color get darkGreen => const Color(0xFF04D361);
 
   //Reds
-  static final Color lightRed = Color(0xFFF5E9EC);
-  static final Color red = Color(0xFFE5C5CF);
-  static final Color darkRed = Color(0xFFCC3750);
+  static Color get lightRed => const Color(0xFFF5E9EC);
+  static Color get red => const Color(0xFFE5C5CF);
+  static Color get darkRed => const Color(0xFFCC3750);
 
   //LevelButton
-  static final Color levelButtonFacil = Color(0xFFEBEBFC);
-  static final Color levelButtonMedio = lightGreen;
-  static final Color levelButtonDificil = Color(0xFFF5EFE9);
-  static final Color levelButtonPerito = lightRed;
+  static Color get levelButtonFacil => const Color(0xFFEBEBFC);
+  static Color get levelButtonMedio => lightGreen;
+  static Color get levelButtonDificil => const Color(0xFFF5EFE9);
+  static Color get levelButtonPerito => lightRed;
 
-  static final Color levelButtonBorderFacil = Color(0xFFCECEF5);
-  static final Color levelButtonBorderMedio = green;
-  static final Color levelButtonBorderDificil = Color(0xFFE5D5C5);
-  static final Color levelButtonBorderPerito = red;
+  static Color get levelButtonBorderFacil => const Color(0xFFCECEF5);
+  static Color get levelButtonBorderMedio => green;
+  static Color get levelButtonBorderDificil => const Color(0xFFE5D5C5);
+  static Color get levelButtonBorderPerito => red;
 
-  static final Color levelButtonTextFacil = Color(0xFF6363DB);
-  static final Color levelButtonTextMedio = darkGreen;
-  static final Color levelButtonTextDificil = Color(0xFFE8891C);
-  static final Color levelButtonTextPerito = darkRed;
+  static Color get levelButtonTextFacil => const Color(0xFF6363DB);
+  static Color get levelButtonTextMedio => darkGreen;
+  static Color get levelButtonTextDificil => const Color(0xFFE8891C);
+  static Color get levelButtonTextPerito => darkRed;
 }
